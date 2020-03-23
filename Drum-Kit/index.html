@@ -4,26 +4,36 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class= 'btnbox' onclick="myFunction(this.id,'audio1.mp3');" id='btn1'> 
-                        BOOP
-                    </div>
-                    <div class= 'btnbox' onclick="myFunction(this.id,'audio2.mp3');" id='btn2'> 
-                        BEEP
-                    </div>
-                    <div class= 'btnbox' onclick="myFunction(this.id,'audio5.mp3');" id='btn3'> 
-                            BEEP
-                    </div>
-                    <div class= 'btnbox' onclick="myFunction(this.id,'audio4.mp3');" id='btn4'> 
-                            BOODEEP
-                    </div>
-                    <div class= 'btnbox' onclick="myFunction(this.id,'audio3.mp3');" id='btn5'> 
-                            BOOP
-                    </div>
-
+        <div class="container">
+            <div class="row align-items-center">
+                <div data-key="68" class= 'col btnbox'> 
+                    D
+                        <div class='sound' > BEEP </div>
                 </div>
+                <div data-key="70" class= 'col btnbox'> 
+                    F
+                    <div class='sound' > BEEP </div>
+                </div>
+                <div data-key="71"  class= ' col btnbox'> 
+                    G
+                    <div class='sound' > BOOP </div>
+                </div>
+                <div data-key="72"  class= 'col btnbox'> 
+                    H
+                        <div class='sound' > BOODEEP </div>
+                </div>
+                <div data-key="74"  class= ' col btnbox'> 
+                    J
+                    <div class='sound' > BOOP </div>
+                </div>
+
             </div>
+        </div>
+        <audio data-key="68" src="audio1.mp3"></audio>
+        <audio data-key="70" src="audio3.mp3"></audio>
+        <audio data-key="71" src="audio5.mp3"></audio>
+        <audio data-key="72" src="audio2.mp3"></audio>
+        <audio data-key="74" src="audio4.mp3"></audio>
         <script type='text/javascript' src = "script.js"> </script>
     </body>
 </html>
