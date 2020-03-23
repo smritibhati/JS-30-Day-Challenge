@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+    background-image: url("bkg.png");
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnbox{
+    border-style: solid;
+    border-radius: 10%;
+    background-color: yellowgreen;
+    opacity: 0.7;
+    border-width: 1 em;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.btnbox:active {
+    border-style: solid;
+    border-radius: 10%;
+    border-color: yellowgreen;
+    background-color: white;
+    opacity: 0.7;
+    border-width: 1.25 em;
+    padding: 0.5em;
+    margin: 0.5em;
+}
